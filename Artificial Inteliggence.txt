@@ -1,0 +1,1101 @@
+#include<iostream>
+#include<conio.h>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+
+  int i;
+
+  double one;
+  double two;
+  double result;
+ 
+  string repeat;
+  string a1;
+  string a2;
+  string a3;
+  string dare;
+  string tod;
+  string q1;
+  string name1;
+  string name2;
+  string answer;
+  string choice;
+  string variation;
+
+    cout << "Hi!!, Who are you, What is your name ?";
+    cout << "\nYour Name: ";
+    cin >> name1;
+    
+    cout << "\nSo, Your name is " << name1;
+    cout << " and, Give me a name also: "; 
+    cin >> name2;
+    
+    cout << "\n";
+    cout << "So, Your name is " << name1;
+    cout << " and My name is " << name2;
+    cout << " right ?\n";
+    cout << "Your answer: ";
+    cin >> answer;
+    
+    cout << "\nAm i a robot ?";
+    cout << "\nYour answer: ";
+    cin >> q1;
+    
+    cout << "\n";
+    cout << "I can do some work, well not much, but here's the list\n";
+    cout << "1.Calculating\n";
+    cout << "2.Play Truth or Dare\n";
+    cout << "3.Nothing\n";
+    cout << "In number: ";
+    cin >> choice;
+
+    if (choice=="1"){
+      cout << "\n";
+      cout << "Remember, if the value is decimal, use dot (.)\n\n";
+      cout << "Enter your first number: ";
+      cin >> one;
+      cout << "\nEnter your second number: ";
+      cin >> two;
+      cout << "\nWhich one do you prefer:\n";
+      cout << "1.Addition\n";
+      cout << "2.Substraction\n";
+      cout << "3.Multiplication\n";
+      cout << "4.Division\n\n";
+      cout << "Your choice: ";
+      cin >> variation;
+      }
+    if (choice=="2"){
+      cout << "\n";
+      cout << "Choose:\n";
+      cout << "1.Truth\n";
+      cout << "2.Dare\n\n";
+      cout << "Your choice: ";
+      cin >> tod;
+      }
+    if (choice=="3"){
+      cout << "\n";
+      cout << "So, What news " << name1;
+      cout << "\n";
+      cout << "Your answer: ";
+      cin >> a2;
+      cout << "\n\nSometimes, i wonder, am i really useless, i want to hear your opinion\n";
+      cout << "Your answer: ";
+      cin >> a3;
+      return 0;
+      }
+    
+      if (variation=="1"){
+      result = one + two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="2"){
+      result = one - two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="3"){
+      result = one * two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="4"){
+      result = one / two;
+      cout << "\nThe Result: " << result;
+      }
+      if (tod=="1"){
+      cout << "\nWhat is your biggest fear ?\n\n";
+      cout << "Your answer: ";
+      cin >> a1;
+      cout << "\nOkay";
+      }
+      if (tod=="2"){
+      cout << "\nGo lick your wall this time, when you done, write done (if you really want lol)";
+      cout << "\nYour answer: ";
+      cin >> dare;
+      }
+      if (dare=="done"){
+      cout << "\nWow, you really doing it";
+      }
+      else {
+      cout << "";
+      }
+      cout << "\n\nDo you want to repeat the choice (y/n)\n";
+      cout << "Your answer: ";
+      cin >> repeat;
+      if (repeat=="y"){
+    cout << "\n";
+    cout << "I can do some work, well not much, but here's the list\n";
+    cout << "1.Calculating\n";
+    cout << "2.Play Truth or Dare\n";
+    cout << "3.Nothing\n";
+    cout << "In number: ";
+    cin >> choice;
+
+    if (choice=="1"){
+      cout << "\n";
+      cout << "Remember, if the value is decimal, use dot (.)\n\n";
+      cout << "Enter your first number: ";
+      cin >> one;
+      cout << "\nEnter your second number: ";
+      cin >> two;
+      cout << "\nWhich one do you prefer:\n";
+      cout << "1.Addition\n";
+      cout << "2.Substraction\n";
+      cout << "3.Multiplication\n";
+      cout << "4.Division\n\n";
+      cout << "Your choice: ";
+      cin >> variation;
+      }
+    if (choice=="2"){
+      cout << "\n";
+      cout << "Choose:\n";
+      cout << "1.Truth\n";
+      cout << "2.Dare\n\n";
+      cout << "Your choice: ";
+      cin >> tod;
+      }
+    if (choice=="3"){
+      cout << "\n";
+      cout << "So, What news " << name1;
+      cout << "\n";
+      cout << "Your answer: ";
+      cin >> a2;
+      cout << "\n\nSometimes, i wonder, am i really useless, i want to hear your opinion\n";
+      cout << "Your answer: ";
+      cin >> a3;
+      return 0;
+      }
+    
+      if (variation=="1"){
+      result = one + two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="2"){
+      result = one - two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="3"){
+      result = one * two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="4"){
+      result = one / two;
+      cout << "\nThe Result: " << result;
+      }
+      if (tod=="1"){
+      cout << "\nWhat is your biggest fear ?\n\n";
+      cout << "Your answer: ";
+      cin >> a1;
+      cout << "\nOkay";
+      }
+      if (tod=="2"){
+      cout << "\nGo lick your wall this time, when you done, write done (if you really want lol)";
+      cout << "\nYour answer: ";
+      cin >> dare;
+      }
+      if (dare=="done"){
+      cout << "\nWow, you really doing it";
+      }
+      else {
+      cout << "";
+      }
+    }
+    else {
+    return 0;
+    }
+    cout << "\n\nDo you want to repeat the choice (y/n)\n";
+      cout << "Your answer: ";
+      cin >> repeat;
+      if (repeat=="y"){
+    cout << "\n";
+    cout << "I can do some work, well not much, but here's the list\n";
+    cout << "1.Calculating\n";
+    cout << "2.Play Truth or Dare\n";
+    cout << "3.Nothing\n";
+    cout << "In number: ";
+    cin >> choice;
+
+    if (choice=="1"){
+      cout << "\n";
+      cout << "Remember, if the value is decimal, use dot (.)\n\n";
+      cout << "Enter your first number: ";
+      cin >> one;
+      cout << "\nEnter your second number: ";
+      cin >> two;
+      cout << "\nWhich one do you prefer:\n";
+      cout << "1.Addition\n";
+      cout << "2.Substraction\n";
+      cout << "3.Multiplication\n";
+      cout << "4.Division\n\n";
+      cout << "Your choice: ";
+      cin >> variation;
+      }
+    if (choice=="2"){
+      cout << "\n";
+      cout << "Choose:\n";
+      cout << "1.Truth\n";
+      cout << "2.Dare\n\n";
+      cout << "Your choice: ";
+      cin >> tod;
+      }
+    if (choice=="3"){
+      cout << "\n";
+      cout << "So, What news " << name1;
+      cout << "\n";
+      cout << "Your answer: ";
+      cin >> a2;
+      cout << "\n\nSometimes, i wonder, am i really useless, i want to hear your opinion\n";
+      cout << "Your answer: ";
+      cin >> a3;
+      return 0;
+      }
+    
+      if (variation=="1"){
+      result = one + two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="2"){
+      result = one - two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="3"){
+      result = one * two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="4"){
+      result = one / two;
+      cout << "\nThe Result: " << result;
+      }
+      if (tod=="1"){
+      cout << "\nWhat is your biggest fear ?\n\n";
+      cout << "Your answer: ";
+      cin >> a1;
+      cout << "\nOkay";
+      }
+      if (tod=="2"){
+      cout << "\nGo lick your wall this time, when you done, write done (if you really want lol)";
+      cout << "\nYour answer: ";
+      cin >> dare;
+      }
+      if (dare=="done"){
+      cout << "\nWow, you really doing it";
+      }
+      else {
+      cout << "";
+      }
+    }
+    else {
+    return 0;
+    }
+    if (repeat=="y"){
+    cout << "\n";
+    cout << "I can do some work, well not much, but here's the list\n";
+    cout << "1.Calculating\n";
+    cout << "2.Play Truth or Dare\n";
+    cout << "3.Nothing\n";
+    cout << "In number: ";
+    cin >> choice;
+
+    if (choice=="1"){
+      cout << "\n";
+      cout << "Remember, if the value is decimal, use dot (.)\n\n";
+      cout << "Enter your first number: ";
+      cin >> one;
+      cout << "\nEnter your second number: ";
+      cin >> two;
+      cout << "\nWhich one do you prefer:\n";
+      cout << "1.Addition\n";
+      cout << "2.Substraction\n";
+      cout << "3.Multiplication\n";
+      cout << "4.Division\n\n";
+      cout << "Your choice: ";
+      cin >> variation;
+      }
+    if (choice=="2"){
+      cout << "\n";
+      cout << "Choose:\n";
+      cout << "1.Truth\n";
+      cout << "2.Dare\n\n";
+      cout << "Your choice: ";
+      cin >> tod;
+      }
+    if (choice=="3"){
+      cout << "\n";
+      cout << "So, What news " << name1;
+      cout << "\n";
+      cout << "Your answer: ";
+      cin >> a2;
+      cout << "\n\nSometimes, i wonder, am i really useless, i want to hear your opinion\n";
+      cout << "Your answer: ";
+      cin >> a3;
+      return 0;
+      }
+    
+      if (variation=="1"){
+      result = one + two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="2"){
+      result = one - two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="3"){
+      result = one * two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="4"){
+      result = one / two;
+      cout << "\nThe Result: " << result;
+      }
+      if (tod=="1"){
+      cout << "\nWhat is your biggest fear ?\n\n";
+      cout << "Your answer: ";
+      cin >> a1;
+      cout << "\nOkay";
+      }
+      if (tod=="2"){
+      cout << "\nGo lick your wall this time, when you done, write done (if you really want lol)";
+      cout << "\nYour answer: ";
+      cin >> dare;
+      }
+      if (dare=="done"){
+      cout << "\nWow, you really doing it";
+      }
+      else {
+      cout << "";
+      }
+    }
+    else {
+    return 0;
+    }
+    if (repeat=="y"){
+    cout << "\n";
+    cout << "I can do some work, well not much, but here's the list\n";
+    cout << "1.Calculating\n";
+    cout << "2.Play Truth or Dare\n";
+    cout << "3.Nothing\n";
+    cout << "In number: ";
+    cin >> choice;
+
+    if (choice=="1"){
+      cout << "\n";
+      cout << "Remember, if the value is decimal, use dot (.)\n\n";
+      cout << "Enter your first number: ";
+      cin >> one;
+      cout << "\nEnter your second number: ";
+      cin >> two;
+      cout << "\nWhich one do you prefer:\n";
+      cout << "1.Addition\n";
+      cout << "2.Substraction\n";
+      cout << "3.Multiplication\n";
+      cout << "4.Division\n\n";
+      cout << "Your choice: ";
+      cin >> variation;
+      }
+    if (choice=="2"){
+      cout << "\n";
+      cout << "Choose:\n";
+      cout << "1.Truth\n";
+      cout << "2.Dare\n\n";
+      cout << "Your choice: ";
+      cin >> tod;
+      }
+    if (choice=="3"){
+      cout << "\n";
+      cout << "So, What news " << name1;
+      cout << "\n";
+      cout << "Your answer: ";
+      cin >> a2;
+      cout << "\n\nSometimes, i wonder, am i really useless, i want to hear your opinion\n";
+      cout << "Your answer: ";
+      cin >> a3;
+      return 0;
+      }
+    
+      if (variation=="1"){
+      result = one + two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="2"){
+      result = one - two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="3"){
+      result = one * two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="4"){
+      result = one / two;
+      cout << "\nThe Result: " << result;
+      }
+      if (tod=="1"){
+      cout << "\nWhat is your biggest fear ?\n\n";
+      cout << "Your answer: ";
+      cin >> a1;
+      cout << "\nOkay";
+      }
+      if (tod=="2"){
+      cout << "\nGo lick your wall this time, when you done, write done (if you really want lol)";
+      cout << "\nYour answer: ";
+      cin >> dare;
+      }
+      if (dare=="done"){
+      cout << "\nWow, you really doing it";
+      }
+      else {
+      cout << "";
+      }
+    }
+    else {
+    return 0;
+    }
+    if (repeat=="y"){
+    cout << "\n";
+    cout << "I can do some work, well not much, but here's the list\n";
+    cout << "1.Calculating\n";
+    cout << "2.Play Truth or Dare\n";
+    cout << "3.Nothing\n";
+    cout << "In number: ";
+    cin >> choice;
+
+    if (choice=="1"){
+      cout << "\n";
+      cout << "Remember, if the value is decimal, use dot (.)\n\n";
+      cout << "Enter your first number: ";
+      cin >> one;
+      cout << "\nEnter your second number: ";
+      cin >> two;
+      cout << "\nWhich one do you prefer:\n";
+      cout << "1.Addition\n";
+      cout << "2.Substraction\n";
+      cout << "3.Multiplication\n";
+      cout << "4.Division\n\n";
+      cout << "Your choice: ";
+      cin >> variation;
+      }
+    if (choice=="2"){
+      cout << "\n";
+      cout << "Choose:\n";
+      cout << "1.Truth\n";
+      cout << "2.Dare\n\n";
+      cout << "Your choice: ";
+      cin >> tod;
+      }
+    if (choice=="3"){
+      cout << "\n";
+      cout << "So, What news " << name1;
+      cout << "\n";
+      cout << "Your answer: ";
+      cin >> a2;
+      cout << "\n\nSometimes, i wonder, am i really useless, i want to hear your opinion\n";
+      cout << "Your answer: ";
+      cin >> a3;
+      return 0;
+      }
+    
+      if (variation=="1"){
+      result = one + two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="2"){
+      result = one - two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="3"){
+      result = one * two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="4"){
+      result = one / two;
+      cout << "\nThe Result: " << result;
+      }
+      if (tod=="1"){
+      cout << "\nWhat is your biggest fear ?\n\n";
+      cout << "Your answer: ";
+      cin >> a1;
+      cout << "\nOkay";
+      }
+      if (tod=="2"){
+      cout << "\nGo lick your wall this time, when you done, write done (if you really want lol)";
+      cout << "\nYour answer: ";
+      cin >> dare;
+      }
+      if (dare=="done"){
+      cout << "\nWow, you really doing it";
+      }
+      else {
+      cout << "";
+      }
+    }
+    else {
+    return 0;
+    }
+    if (repeat=="y"){
+    cout << "\n";
+    cout << "I can do some work, well not much, but here's the list\n";
+    cout << "1.Calculating\n";
+    cout << "2.Play Truth or Dare\n";
+    cout << "3.Nothing\n";
+    cout << "In number: ";
+    cin >> choice;
+
+    if (choice=="1"){
+      cout << "\n";
+      cout << "Remember, if the value is decimal, use dot (.)\n\n";
+      cout << "Enter your first number: ";
+      cin >> one;
+      cout << "\nEnter your second number: ";
+      cin >> two;
+      cout << "\nWhich one do you prefer:\n";
+      cout << "1.Addition\n";
+      cout << "2.Substraction\n";
+      cout << "3.Multiplication\n";
+      cout << "4.Division\n\n";
+      cout << "Your choice: ";
+      cin >> variation;
+      }
+    if (choice=="2"){
+      cout << "\n";
+      cout << "Choose:\n";
+      cout << "1.Truth\n";
+      cout << "2.Dare\n\n";
+      cout << "Your choice: ";
+      cin >> tod;
+      }
+    if (choice=="3"){
+      cout << "\n";
+      cout << "So, What news " << name1;
+      cout << "\n";
+      cout << "Your answer: ";
+      cin >> a2;
+      cout << "\n\nSometimes, i wonder, am i really useless, i want to hear your opinion\n";
+      cout << "Your answer: ";
+      cin >> a3;
+      return 0;
+      }
+    
+      if (variation=="1"){
+      result = one + two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="2"){
+      result = one - two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="3"){
+      result = one * two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="4"){
+      result = one / two;
+      cout << "\nThe Result: " << result;
+      }
+      if (tod=="1"){
+      cout << "\nWhat is your biggest fear ?\n\n";
+      cout << "Your answer: ";
+      cin >> a1;
+      cout << "\nOkay";
+      }
+      if (tod=="2"){
+      cout << "\nGo lick your wall this time, when you done, write done (if you really want lol)";
+      cout << "\nYour answer: ";
+      cin >> dare;
+      }
+      if (dare=="done"){
+      cout << "\nWow, you really doing it";
+      }
+      else {
+      cout << "";
+      }
+    }
+    else {
+    return 0;
+    }
+    if (repeat=="y"){
+    cout << "\n";
+    cout << "I can do some work, well not much, but here's the list\n";
+    cout << "1.Calculating\n";
+    cout << "2.Play Truth or Dare\n";
+    cout << "3.Nothing\n";
+    cout << "In number: ";
+    cin >> choice;
+
+    if (choice=="1"){
+      cout << "\n";
+      cout << "Remember, if the value is decimal, use dot (.)\n\n";
+      cout << "Enter your first number: ";
+      cin >> one;
+      cout << "\nEnter your second number: ";
+      cin >> two;
+      cout << "\nWhich one do you prefer:\n";
+      cout << "1.Addition\n";
+      cout << "2.Substraction\n";
+      cout << "3.Multiplication\n";
+      cout << "4.Division\n\n";
+      cout << "Your choice: ";
+      cin >> variation;
+      }
+    if (choice=="2"){
+      cout << "\n";
+      cout << "Choose:\n";
+      cout << "1.Truth\n";
+      cout << "2.Dare\n\n";
+      cout << "Your choice: ";
+      cin >> tod;
+      }
+    if (choice=="3"){
+      cout << "\n";
+      cout << "So, What news " << name1;
+      cout << "\n";
+      cout << "Your answer: ";
+      cin >> a2;
+      cout << "\n\nSometimes, i wonder, am i really useless, i want to hear your opinion\n";
+      cout << "Your answer: ";
+      cin >> a3;
+      return 0;
+      }
+    
+      if (variation=="1"){
+      result = one + two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="2"){
+      result = one - two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="3"){
+      result = one * two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="4"){
+      result = one / two;
+      cout << "\nThe Result: " << result;
+      }
+      if (tod=="1"){
+      cout << "\nWhat is your biggest fear ?\n\n";
+      cout << "Your answer: ";
+      cin >> a1;
+      cout << "\nOkay";
+      }
+      if (tod=="2"){
+      cout << "\nGo lick your wall this time, when you done, write done (if you really want lol)";
+      cout << "\nYour answer: ";
+      cin >> dare;
+      }
+      if (dare=="done"){
+      cout << "\nWow, you really doing it";
+      }
+      else {
+      cout << "";
+      }
+    }
+    else {
+    return 0;
+    }
+    if (repeat=="y"){
+    cout << "\n";
+    cout << "I can do some work, well not much, but here's the list\n";
+    cout << "1.Calculating\n";
+    cout << "2.Play Truth or Dare\n";
+    cout << "3.Nothing\n";
+    cout << "In number: ";
+    cin >> choice;
+
+    if (choice=="1"){
+      cout << "\n";
+      cout << "Remember, if the value is decimal, use dot (.)\n\n";
+      cout << "Enter your first number: ";
+      cin >> one;
+      cout << "\nEnter your second number: ";
+      cin >> two;
+      cout << "\nWhich one do you prefer:\n";
+      cout << "1.Addition\n";
+      cout << "2.Substraction\n";
+      cout << "3.Multiplication\n";
+      cout << "4.Division\n\n";
+      cout << "Your choice: ";
+      cin >> variation;
+      }
+    if (choice=="2"){
+      cout << "\n";
+      cout << "Choose:\n";
+      cout << "1.Truth\n";
+      cout << "2.Dare\n\n";
+      cout << "Your choice: ";
+      cin >> tod;
+      }
+    if (choice=="3"){
+      cout << "\n";
+      cout << "So, What news " << name1;
+      cout << "\n";
+      cout << "Your answer: ";
+      cin >> a2;
+      cout << "\n\nSometimes, i wonder, am i really useless, i want to hear your opinion\n";
+      cout << "Your answer: ";
+      cin >> a3;
+      return 0;
+      }
+    
+      if (variation=="1"){
+      result = one + two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="2"){
+      result = one - two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="3"){
+      result = one * two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="4"){
+      result = one / two;
+      cout << "\nThe Result: " << result;
+      }
+      if (tod=="1"){
+      cout << "\nWhat is your biggest fear ?\n\n";
+      cout << "Your answer: ";
+      cin >> a1;
+      cout << "\nOkay";
+      }
+      if (tod=="2"){
+      cout << "\nGo lick your wall this time, when you done, write done (if you really want lol)";
+      cout << "\nYour answer: ";
+      cin >> dare;
+      }
+      if (dare=="done"){
+      cout << "\nWow, you really doing it";
+      }
+      else {
+      cout << "";
+      }
+    }
+    else {
+    return 0;
+    }
+    if (repeat=="y"){
+    cout << "\n";
+    cout << "I can do some work, well not much, but here's the list\n";
+    cout << "1.Calculating\n";
+    cout << "2.Play Truth or Dare\n";
+    cout << "3.Nothing\n";
+    cout << "In number: ";
+    cin >> choice;
+
+    if (choice=="1"){
+      cout << "\n";
+      cout << "Remember, if the value is decimal, use dot (.)\n\n";
+      cout << "Enter your first number: ";
+      cin >> one;
+      cout << "\nEnter your second number: ";
+      cin >> two;
+      cout << "\nWhich one do you prefer:\n";
+      cout << "1.Addition\n";
+      cout << "2.Substraction\n";
+      cout << "3.Multiplication\n";
+      cout << "4.Division\n\n";
+      cout << "Your choice: ";
+      cin >> variation;
+      }
+    if (choice=="2"){
+      cout << "\n";
+      cout << "Choose:\n";
+      cout << "1.Truth\n";
+      cout << "2.Dare\n\n";
+      cout << "Your choice: ";
+      cin >> tod;
+      }
+    if (choice=="3"){
+      cout << "\n";
+      cout << "So, What news " << name1;
+      cout << "\n";
+      cout << "Your answer: ";
+      cin >> a2;
+      cout << "\n\nSometimes, i wonder, am i really useless, i want to hear your opinion\n";
+      cout << "Your answer: ";
+      cin >> a3;
+      return 0;
+      }
+    
+      if (variation=="1"){
+      result = one + two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="2"){
+      result = one - two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="3"){
+      result = one * two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="4"){
+      result = one / two;
+      cout << "\nThe Result: " << result;
+      }
+      if (tod=="1"){
+      cout << "\nWhat is your biggest fear ?\n\n";
+      cout << "Your answer: ";
+      cin >> a1;
+      cout << "\nOkay";
+      }
+      if (tod=="2"){
+      cout << "\nGo lick your wall this time, when you done, write done (if you really want lol)";
+      cout << "\nYour answer: ";
+      cin >> dare;
+      }
+      if (dare=="done"){
+      cout << "\nWow, you really doing it";
+      }
+      else {
+      cout << "";
+      }
+    }
+    else {
+    return 0;
+    }
+    if (repeat=="y"){
+    cout << "\n";
+    cout << "I can do some work, well not much, but here's the list\n";
+    cout << "1.Calculating\n";
+    cout << "2.Play Truth or Dare\n";
+    cout << "3.Nothing\n";
+    cout << "In number: ";
+    cin >> choice;
+
+    if (choice=="1"){
+      cout << "\n";
+      cout << "Remember, if the value is decimal, use dot (.)\n\n";
+      cout << "Enter your first number: ";
+      cin >> one;
+      cout << "\nEnter your second number: ";
+      cin >> two;
+      cout << "\nWhich one do you prefer:\n";
+      cout << "1.Addition\n";
+      cout << "2.Substraction\n";
+      cout << "3.Multiplication\n";
+      cout << "4.Division\n\n";
+      cout << "Your choice: ";
+      cin >> variation;
+      }
+    if (choice=="2"){
+      cout << "\n";
+      cout << "Choose:\n";
+      cout << "1.Truth\n";
+      cout << "2.Dare\n\n";
+      cout << "Your choice: ";
+      cin >> tod;
+      }
+    if (choice=="3"){
+      cout << "\n";
+      cout << "So, What news " << name1;
+      cout << "\n";
+      cout << "Your answer: ";
+      cin >> a2;
+      cout << "\n\nSometimes, i wonder, am i really useless, i want to hear your opinion\n";
+      cout << "Your answer: ";
+      cin >> a3;
+      return 0;
+      }
+    
+      if (variation=="1"){
+      result = one + two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="2"){
+      result = one - two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="3"){
+      result = one * two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="4"){
+      result = one / two;
+      cout << "\nThe Result: " << result;
+      }
+      if (tod=="1"){
+      cout << "\nWhat is your biggest fear ?\n\n";
+      cout << "Your answer: ";
+      cin >> a1;
+      cout << "\nOkay";
+      }
+      if (tod=="2"){
+      cout << "\nGo lick your wall this time, when you done, write done (if you really want lol)";
+      cout << "\nYour answer: ";
+      cin >> dare;
+      }
+      if (dare=="done"){
+      cout << "\nWow, you really doing it";
+      }
+      else {
+      cout << "";
+      }
+    }
+    else {
+    return 0;
+    }
+    if (repeat=="y"){
+    cout << "\n";
+    cout << "I can do some work, well not much, but here's the list\n";
+    cout << "1.Calculating\n";
+    cout << "2.Play Truth or Dare\n";
+    cout << "3.Nothing\n";
+    cout << "In number: ";
+    cin >> choice;
+
+    if (choice=="1"){
+      cout << "\n";
+      cout << "Remember, if the value is decimal, use dot (.)\n\n";
+      cout << "Enter your first number: ";
+      cin >> one;
+      cout << "\nEnter your second number: ";
+      cin >> two;
+      cout << "\nWhich one do you prefer:\n";
+      cout << "1.Addition\n";
+      cout << "2.Substraction\n";
+      cout << "3.Multiplication\n";
+      cout << "4.Division\n\n";
+      cout << "Your choice: ";
+      cin >> variation;
+      }
+    if (choice=="2"){
+      cout << "\n";
+      cout << "Choose:\n";
+      cout << "1.Truth\n";
+      cout << "2.Dare\n\n";
+      cout << "Your choice: ";
+      cin >> tod;
+      }
+    if (choice=="3"){
+      cout << "\n";
+      cout << "So, What news " << name1;
+      cout << "\n";
+      cout << "Your answer: ";
+      cin >> a2;
+      cout << "\n\nSometimes, i wonder, am i really useless, i want to hear your opinion\n";
+      cout << "Your answer: ";
+      cin >> a3;
+      return 0;
+      }
+    
+      if (variation=="1"){
+      result = one + two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="2"){
+      result = one - two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="3"){
+      result = one * two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="4"){
+      result = one / two;
+      cout << "\nThe Result: " << result;
+      }
+      if (tod=="1"){
+      cout << "\nWhat is your biggest fear ?\n\n";
+      cout << "Your answer: ";
+      cin >> a1;
+      cout << "\nOkay";
+      }
+      if (tod=="2"){
+      cout << "\nGo lick your wall this time, when you done, write done (if you really want lol)";
+      cout << "\nYour answer: ";
+      cin >> dare;
+      }
+      if (dare=="done"){
+      cout << "\nWow, you really doing it";
+      }
+      else {
+      cout << "";
+      }
+    }
+    else {
+    return 0;
+    }if (repeat=="y"){
+    cout << "\n";
+    cout << "I can do some work, well not much, but here's the list\n";
+    cout << "1.Calculating\n";
+    cout << "2.Play Truth or Dare\n";
+    cout << "3.Nothing\n";
+    cout << "In number: ";
+    cin >> choice;
+
+    if (choice=="1"){
+      cout << "\n";
+      cout << "Remember, if the value is decimal, use dot (.)\n\n";
+      cout << "Enter your first number: ";
+      cin >> one;
+      cout << "\nEnter your second number: ";
+      cin >> two;
+      cout << "\nWhich one do you prefer:\n";
+      cout << "1.Addition\n";
+      cout << "2.Substraction\n";
+      cout << "3.Multiplication\n";
+      cout << "4.Division\n\n";
+      cout << "Your choice: ";
+      cin >> variation;
+      }
+    if (choice=="2"){
+      cout << "\n";
+      cout << "Choose:\n";
+      cout << "1.Truth\n";
+      cout << "2.Dare\n\n";
+      cout << "Your choice: ";
+      cin >> tod;
+      }
+    if (choice=="3"){
+      cout << "\n";
+      cout << "So, What news " << name1;
+      cout << "\n";
+      cout << "Your answer: ";
+      cin >> a2;
+      cout << "\n\nSometimes, i wonder, am i really useless, i want to hear your opinion\n";
+      cout << "Your answer: ";
+      cin >> a3;
+      return 0;
+      }
+    
+      if (variation=="1"){
+      result = one + two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="2"){
+      result = one - two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="3"){
+      result = one * two;
+      cout << "\nThe result is: " << result;
+      }
+      if (variation=="4"){
+      result = one / two;
+      cout << "\nThe Result: " << result;
+      }
+      if (tod=="1"){
+      cout << "\nWhat is your biggest fear ?\n\n";
+      cout << "Your answer: ";
+      cin >> a1;
+      cout << "\nOkay";
+      }
+      if (tod=="2"){
+      cout << "\nGo lick your wall this time, when you done, write done (if you really want lol)";
+      cout << "\nYour answer: ";
+      cin >> dare;
+      }
+      if (dare=="done"){
+      cout << "\nWow, you really doing it";
+      }
+      else {
+      cout << "";
+      }
+    }
+    else {
+    return 0;
+    }
+     return 0;    
+}
